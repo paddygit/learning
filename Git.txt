@@ -1,0 +1,22 @@
+Git
+
+Problem faced:
+Was receiving permission related messages
+
+Cause:
+SSH was not added to the GitHub website
+
+Steps:
+$ cat ~/.ssh/id_rsa.pub
+This is your SSH key. Add it to your SSH keys in the repository.
+In gitlab go to
+profile settings -> SSH Keys
+
+Reference:
+https://stackoverflow.com/questions/25927914/git-error-please-make-sure-you-have-the-correct-access-rights-and-the-reposito
+-------------------------------------------------------------------------------
+
+
+
+
+

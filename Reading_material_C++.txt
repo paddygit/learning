@@ -1,0 +1,36 @@
+Reference materials - C++
+
+CodeProject 
+>Virtual Functions
+>>Object bisection/Object Slicing
+
+https://www.codeproject.com/Articles/29024/Think-before-you-code-Virtual-Functions-in-C
+--------------------------------------------------------------------------------
+
+CodeProject - A Beginners guide to Templates - Part 1
+>Template
+>> Introduction article
+
+https://www.codeproject.com/Articles/2591/A-Beginners-guide-to-Templates-Part
+--------------------------------------------------------------------------------
+
+CodeProject - A Beginners guide to Templates - Part 2
+>Template
+>> Template inside template
+
+https://www.codeproject.com/Articles/2643/A-Beginners-guide-to-Templates-Part
+--------------------------------------------------------------------------------
+
+CodeProject - Idea to Implementation: Sowing the First Seeds on a C++14 Project
+
+>Article shows how an idea takes shape to final software
+>>OpenCV
+
+https://www.codeproject.com/Articles/1162852/Idea-to-Implementation-Sowing-the-First-Seeds-on-a
+--------------------------------------------------------------------------------
+
+
+
+
+
+
