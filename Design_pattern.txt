@@ -1,0 +1,82 @@
+Design Patterns
+
+What is a design pattern?
+Design patterns are used for addressing the design problems in software developemnt.
+Helps makes code Reusable, flexible and maintainable.
+Design pattern is a practical and proven solution to a recurring design problem.
+
+Design Patterns:Elements of Reusable Object-oriented Software
+
+Category of Patterns:
+	Creational Patterns
+	 Tackle how new objects are created
+	 
+	Structural Patterns
+	 Describe how objects are connected to each other
+	 
+	Behavioral Patterns
+	 Focus on how objects distribute work
+	 How each object does a single cohesive function
+	 How independent objects work towards a common goal
+
+-----------------------
+Singleton Pattern - Creational pattern
+ Enforces only one object of a class
+ Has the singleton object globally accessible
+ 
+ Give a class a private constructor so that the constructor cannot be called outside the class
+ Gate keeping by creating a getInstance
+ 
+ Lazy creation- object is not created until needed
+------------------------- 
+Factory Method Pattern - Creational Pattern
+ Act of instantiating an object to a certain class is called Concrete Instantiation. 
+ Factory method pattern avoids Concrete Instantiation
+ 
+ Benefits
+	If there are multiple clients that want to instantiate the same set of classes, then by using a Factory object, you have cut out redundant code and made the software easier to modify.
+	
+ factory objectis not one of the gang of four pattern
+
+ Factory Method pattern approaches the creation of specific types of objects in a different way. Instead of creating a separate object, the factory object, factory method uses a separate method in the same class to create the objects.
+ 
+ Factory Method: The factory method design intent is to define an interface for creating objects, but the subclasses decide which class to instantiate.
+ 
+ The factory method is made abstract and left empty. This is because the factory method should be defined by the subclasses.
+-------------------------
+Facade Pattern - Structural pattern
+ Provides a single simplified interface for client classes to interact with the subsystem.	
+ 
+ Facade does not add more functionality. A facade simply acts as a point of entry into your subsystem.
+ 
+ A facade is a wrapper class that encapsulate a subsystem in order to hide the subsystem's complexity.
+ 
+ While the facade design pattern uses a number of different design principles, it purpose is to provide ease of access to a complex subsystem. This is done by encapsulating the subsystem classes into a Facade class, and then hiding them from the client classes so that the clients do not know about the details of the subsystem.
+ 
+  The facade design pattern
+	is a means to hide the complexity of a subsystem by encapsulating it behind a unifying wrapper called a facade class; 
+	removes the need for client classes to manage a subsystem on their own, resulting in less coupling between the subsystem and the client classes;
+	handles instantiation and redirection of tasks to the appropriate class within the subsystem; 
+	provides client classes with a simplified interface for the subsystem;
+	acts simply as a point of entry to a subsystem and does not add more functionality to the subsystem. 
+	
+Adapter Pattern - Structural pattern
+ Problem: The output of one system may not confirm to the expected input of another system. 
+  The adapter design pattern will help facilitate communication between two existing systems by providing a compatible interface. 
+  
+   
+ Parts of Adapter Pattern
+ Client
+  The client class will be part of your system that wants to use a third-party library or external system.
+ Adaptee
+  The adaptee is a class in the third-party library or external system to be used.
+ Adapter
+  The adapter class sits in between the client and the adaptee. It will implement a target interface which is the interface that the client will use. The adapter conforms to what the client is expecting to see.
+  The client sends a request to the adapter using the target interface. The adapter will then translate the request into a message that the adaptee will understand. Once the translation is finished, it will send the translated request to the adaptee.
+  The adapter essentially encapsulates the adaptee and presents a new interface, or appearance, to the client class. It does this by wrapping the adaptee’s interface and exposing a new target interface that makes sense to the client.
+  
+  An adapter is meant to:
+  1. wrap the adaptee and expose a target interface to the client, 
+  2. indirectly change the adaptee's interface into one that the client is expecting by implementing a target interface, 
+  3. indirectly translate the client's request into one the adaptee is expecting, 
+  4. and reuse an existing adaptee with an incompatible interface.
